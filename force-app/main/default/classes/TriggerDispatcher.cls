@@ -18,7 +18,6 @@ public class TriggerDispatcher {
 	* @Param        handler - Handler instance implementing interface
 	* @Return       objName - Object Name of the Trigger 
 	* @Example     
-	* B2B_TriggerDispatcher.Run(handler,objName)
 	**************************************************************************************/
 	public static void run(ITriggerInterface handler,sObjectType objName)
     {
