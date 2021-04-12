@@ -2,6 +2,7 @@ public class AccountTriggerHelper{
 
  public void addAccString(List<SObject> accList){
                 //beforeInsert methods 
+            System.debug('------ Inside Trigger/AccountTriggerHelper-------');
                 List<Account> lista = new List<account>();
         Account acc ;
         
