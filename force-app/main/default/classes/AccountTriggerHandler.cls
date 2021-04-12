@@ -14,14 +14,15 @@ public class AccountTriggerHandler implements ITriggerInterface{
 **************************************************************************************/    
     public void beforeInsert(List<SObject> newItems){
                 //beforeInsert methods 
-                List<Account> lista = new List<account>();
+              /*  List<Account> lista = new List<account>();
         Account acc ;
         
         for(sObject item : newItems){
             acc=(Account)item;
             acc.name = acc.name + ' TriggerFactory';
             
-        }
+        }*/
+        AccountTriggerHelper.addAccString(List<SObject> newItems);
                     
                 
         
