@@ -1,5 +1,5 @@
 /*******************************************************************************************
-* @Name             B2B_TriggerDispatcher
+* @Name             TriggerDispatcher
 * @Author           Pooja Mane <poojmane@in.ibm.com>
 * @Date             10/02/2021 <dd/mm/yyyy>
 * @Group            Trigger Framework

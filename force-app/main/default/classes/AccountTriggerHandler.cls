@@ -1,7 +1,7 @@
 /*******************************************************************************************
-* @Name         B2B_GSA_KnowledgeTriggerHandler
+* @Name        AccountTriggerHandler
 * @Author       Pooja Mane
-* @Date         10/03/2021
+* @Date         12/04/2021
 * @Group        
 * @Description  To Send notification when article has submitted for approval
 *******************************************************************************************/
@@ -51,7 +51,7 @@ public class AccountTriggerHandler implements ITriggerInterface{
     }
     public void afterUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) { 
         //afterUpdate methods
-        //B2B_GSA_CaseTriggerHelper.populateAssetOnCase(newItems);
+    
     }
     public void afterDelete(Map<Id, SObject> oldItems) {
         //afterDelete methods 
