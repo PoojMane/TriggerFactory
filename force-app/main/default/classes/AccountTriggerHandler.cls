@@ -13,7 +13,7 @@ public class AccountTriggerHandler implements ITriggerInterface{
 *@Example 
 **************************************************************************************/    
     public void beforeInsert(List<SObject> newItems){
-                //beforeInsert methods 
+        //beforeInsert methods 
         System.debug('------ Inside Trigger/AccountTriggerHandler-------');
         AccountTriggerHelper.addAccString(List<SObject> newItems);
      
