@@ -18,6 +18,7 @@ public class Util {
 * @Example     
 * Util.getDisabledTrigger(Case)
 **************************************************************************************/
+System.debug('------ Inside Trigger/Util Class-------');
     public static Boolean getDisabledTrigger(SObjectType objName){
         Boolean isTriggerActive = false;
         Schema.DescribeSObjectResult schema = objName.getDescribe();
